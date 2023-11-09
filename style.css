@@ -1,0 +1,385 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 50px;
+    font-family: cursive;
+    color: black;
+}
+
+.logo{
+    width: 940px;
+    height: auto;
+}
+
+nav{
+    position: absolute;
+    top:30%;
+    right: 50px;
+}
+
+nav li{
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+}
+
+.productos{
+    background: linear-gradient( #EFEFEF, #888888);
+    padding: 20px;
+
+}
+
+.productos ul{
+    /*width: 940px;*/
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.productos h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+.productos a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos a{
+    color: black;
+    text-decoration: none;
+}
+
+.productos img{
+    width: 150px;
+    height: 150px;
+}
+
+.productos li{
+    /*width: 940px;*/
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition-duration: 1s;
+}
+
+.productos li:hover{
+    border-color:#c78c19;
+}
+
+.productos li:active{
+    border-color:#088c19;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.principal{
+    /*width: 940px;*/
+    margin: 0 auto;
+    background: linear-gradient(#888888, #EFEFEF);
+    padding: 3em 0;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.principal em strong{
+    color: red;
+}
+
+.utensilios{
+    width: 120px;
+    float:left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 3em 0;
+    overflow: hidden;
+    background: linear-gradient(#FEFEFE, #888888, #FEFEFE);
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.seccionformulario {
+    display: block;
+    background: #FFFFFF;
+    padding: 30px;
+    background: linear-gradient(#EFEFEF, #888888);
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.formulario__label {
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.formulario__grupo-input {
+    position: relative;
+}
+
+.formulario__input {
+    width: 100%;
+    background: #fff;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition: .3s ease all;
+}
+
+.formulario__input:focus {
+    border: 3px solid #0075FF;
+    outline: none;
+    box-shadow: 3px 0px 30px #a3a3a366;
+}
+
+.formulario__input-error {
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+
+.formulario__input-error-activo {
+    padding-top: 10px;
+    display: block;
+}
+
+.formulario__validacion-estado {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.formulario__checkbox {
+    margin-right: 10px;
+    font-size: 5px;
+}
+
+.formulario__grupo-terminos,
+.formulario__mensaje,
+.formulario__grupo-btn-enviar {
+    grid-column: span 2;
+}
+
+.formulario__mensaje {
+    height: 45px;
+    line-height: 45px;
+    background: #F66060;
+    padding: 0 15px;
+    border-radius: 3px;
+    display: none;
+}
+
+.formulario__mensaje-activo {
+    display: block;
+}
+
+.formulario__mensaje p {
+    margin: 0;
+}
+
+.formulario__grupo-btn-enviar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario__mensaje-exito {
+    font-size: 18px;
+    color: #119200;
+    display: none;
+    padding-bottom: 20px;
+}
+
+.formulario__mensaje-exito-activo {
+    display: block;
+}
+
+.formulario__btn {
+    height: 45px;
+    line-height: 45px;
+    width: 30%;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .1s ease all;
+}
+
+.formulario__btn:hover {
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+}
+
+/* Validacion */
+.formulario__grupo-correcto .formulario__validacion-estado {
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+    color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+    color: #bb2929;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+    border: 3px solid #bb2929;
+}
+
+footer{
+    text-align: center;
+    background-color: #BBBBBB;
+    padding:40px;
+}
+
+.copyright{
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    margin:20px;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .productos, .productos ul li, .productos img, .principal, .mapa-contenido, .formulario {
+        width: auto;
+    }
+
+}
+/* Mediaqueries */
+@media screen and (max-width: 800px) {
+    .formulario {
+        grid-template-columns: 1fr;
+    }
+
+    .formulario__grupo-terminos,
+    .formulario__mensaje,
+    .formulario__grupo-btn-enviar {
+        grid-column: 1;
+    }
+
+    .formulario__btn {
+        width: 100%;
+    }
+}
+----------------------------------------------------
+
+/**/
+
+#descripcion{
+    width: 940px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+/*table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color:white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}*/
+
+/*Aquí inicia el CSS para nuestra home*/
+
+
+

@@ -1,0 +1,117 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 50px;
+    font-family: cursive;
+    color: black;
+}
+
+.logo{
+    width: 940px;
+    height: auto;
+}
+
+nav{
+    position: absolute;
+    top:30%;
+    right: 50px;
+}
+
+nav li{
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+}
+
+.productos{
+    background: linear-gradient( #EFEFEF, #888888);
+    padding: 20px;
+    text-align: center;
+
+}
+
+table.tabla {
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table.tabla thead th {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+table.tabla tbody td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.tabla img {
+    width: 150px;
+    height: 150px;
+}
+
+footer{
+    text-align: center;
+    background-color: #BBBBBB;
+    padding:40px;
+}
+
+.cuenta img{
+    width: 90px;
+    height: 90px;
+}
+
+.copyright{
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    margin:20px;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .productos, .productos img {
+        width: auto;
+    }
+
+}

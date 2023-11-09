@@ -1,0 +1,34 @@
+[
+    {
+        "agencia": "Ivanna Blanc",
+        "titulo": "Excelente casa en Barrio Dalvian",
+        "imagen": "img/casadalvian.jpg",
+        "descripcion": "La casa está emplazada en un terreno de 900 metros y 600 cubiertos, muy buena ubicación en esquina, a metros de la estación de servicio, ingreso por puerta 0. Desarrollada en dos plantas la cual cuenta con la siguiente distribución: Planta baja: Hall de ingreso, amplio living comedor con toilette de visita, estar comedor cocina con desayunador, lavandería independiente, 3 dormitorios en planta baja, uno en suite, y otro baño zonificado para los otros dormitorios, escritorio con vista al jardín. Planta alta: gran dormitorio principal con baño en suite y vestidores Otro dormitorio con baño en suite, amplio playroom con salida a terraza La casa tiene calefacción central por radiadores.",
+        "precio": "$200000",
+        "direccion": "Barrio Dalvian, Mendoza"
+    },
+    {
+        "agencia": "Galea Propiedades",
+        "titulo": "Excelente propiedad en la quinta sección",
+        "imagen": "img/casagalea.jpg",
+        "descripcion": "GALEA Propiedades tiene en ALQUILER, excelente propiedad con una inmejorable ubicación, en el corazón de la quinta sección, calle Martín Zapata y Granaderos, de la ciudad de Mendoza. La casa se desarrolla en dos plantas, tiene 190 mts2 de terreno y 170 mts2 cubiertos. Cuenta con 3 dormitorios, uno de ellos en planta alta con 1 baño, en planta baja 2 dormitorios y 1 baño con ante baño y vestidor. Living, comedor, y cocina independiente. Hermoso Hall de ingreso Patio con churrasquera y cochera (chica). Aberturas de pvc dvh en toda la casa, ademas mamparas. Tiene instalados 4 AA Es ideal para uso comercial, tiene 6 privados y recepción. EXCELENTE PARA COWORKING / Consultorios",
+        "precio": "$150000",
+        "direccion": "Quinta Sección, Mendoza"
+    },
+    {
+        "agencia": "Inzirillo Propiedades",
+        "titulo": "Espectacular casa en la 5ta Sección",
+        "imagen": "img/casainzirillo.jpg",
+        "descripcion": "Inzirillo Propiedades Alquila! Espectacular casa , inmejorable ubicación, en calle Huarpes y Luzuriaga de la 5ta Sección. Ideal para Consultorios , Estética, Spa, etc. Características: Distribuida en 3 plantas Planta baja: Living comedor Escrito Toilette Cocina Cochera totalmente cerrada Pat usar como otro ambiente Pequeño patio con churrasquera y leonera. Planta Alta: 4 dormitorios , uno en suite con balcón, todos con placares. Baño y ante baño completo. Tercer Planta: Lavandería , dependencia de servicio y terraza.",
+        "precio": "$120000",
+        "direccion": "Quinta Sección, Mendoza"
+    },
+    {
+        "agencia": "Barrio Maristas",
+        "titulo": "Hermosa casa en Barrio Maristas",
+        "imagen": "img/casamaristas.jpg",
+        "descripcion": "Hermosa casa ubicada en Barrio Maristas, una zona residencial a 10 minutos del centro de Mendoza. Rodeada de amplio jardín, la propiedad se desarrolla en distintos niveles. Ingreso por puerta principal a amplio living comedor, con ventanal hacia el jardin. Cocina comedor con mesa empotrada. Baño social. Tres dormitorios en suite con amplio placard, uno en cada piso. El principal tiene vestidor. Escritorio. Lavandería tipo sótano. Piscina, quincho abierto con churrasquera, habitación y baño de servicio. Cochera doble por porton automatico. La casa cuenta con calefacción central y se entrega con dos aires acondicionados.",
+        "precio": "$250000",
+        "direccion": "Barrio Maristas, Mendoza"
+    }
+]

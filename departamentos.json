@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Terrazas de Rondeau",
+        "imagen": "img/terrazasrondeau.jpg",
+        "descripcion": "El Terrazas de Rondeau se encuentra en el centro de Mendoza, cerca del Museo del Pasado Cuyano, la terminal de autobuses de Mendoza y la plaza Independencia, y ofrece terraza y WiFi gratuita.",
+        "ubicacion": "Mendoza, Argentina",
+        "precio": "$600000"
+    },
+    {
+        "nombre": "Luxury Apartments",
+        "imagen": "img/luxury.jpg",
+        "descripcion": "El Luxury Apartments ofrece alojamiento con WiFi gratuita y aparcamiento privado gratuito en el centro de Mendoza, a 1,1 km del Museo del Pasado Cuyano y a 1,2 km de la terminal de autobuses.",
+        "ubicacion": "Mendoza, Argentina",
+        "precio": "$300000"
+    },
+    {
+        "nombre": "La Barrica Estudio",
+        "imagen": "img/barricaestudio.jpg",
+        "descripcion": "El establecimiento La Barrica Estudio se encuentra en Mendoza, a 1,4 km del parque O'Higgings y a 650 metros del Paseo Alameda, y ofrece alojamiento con WiFi gratuita, aire acondicionado y jardín.",
+        "ubicacion": "Mendoza, Argentina",
+        "precio": "$200000"
+    },
+    {
+        "nombre": "Apartamentos Willy",
+        "imagen": "img/apartamentoswilly.jpg",
+        "descripcion": "Los Apartamentos Willy ofrecen alojamiento con WiFi gratuita y aparcamiento privado gratuito en el centro de Mendoza, a 2,1 km del parque O'Higgings y a 2,8 km del paseo Alameda.",
+        "ubicacion": "Mendoza, Argentina",
+        "precio": "$100000"
+    }
+]

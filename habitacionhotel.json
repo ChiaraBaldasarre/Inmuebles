@@ -1,0 +1,34 @@
+[
+    {
+        "nombre": "Hotel Cordon Del Plata",
+        "imagen": "img/cordondelplata.jpg",
+        "descripcion": "El Hotel Cordon Del Plata está ubicado en el centro de Mendoza, a 1 km de la plaza Independencia, y ofrece habitaciones amplias con Wifi gratis. El desayuno está incluido.",
+        "ubicacion": "Mendoza, Argentina",
+        "estrellas": 3,
+        "precio": "$300000"
+    },
+    {
+        "nombre": "Hotel Crillon Mendoza",
+        "imagen": "img/crillon.jpg",
+        "descripcion": "El Hotel Crillon Mendoza está ubicado en el corazón de Mendoza, a 5 minutos a pie de la Plaza Independencia. Ofrece una pileta al aire libre situada frente a la propiedad y conexión wifi gratis.",
+        "ubicacion": "Mendoza, Argentina",
+        "estrellas": 4,
+        "precio": "$700000"
+    },
+    {
+        "nombre": "Abril Hotel Boutique",
+        "imagen": "img/abrilboutique.jpg",
+        "descripcion": "El nuevo Abril Hotel Boutique se encuentra en el centro de Mendoza y cuenta con habitaciones modernas e interiores elegantes.",
+        "ubicacion": "Mendoza, Argentina",
+        "estrellas": 4,
+        "precio": "$800000"
+    },
+    {
+        "nombre": "Fuente Mayor Hotel Ciudad de Mendoza",
+        "imagen": "img/fuentemayor.jpg",
+        "descripcion": "El Fuente Mayor Hotel Ciudad de Mendoza se encuentra en Mendoza, a 100 metros de la plaza de la Independencia, y ofrece alojamiento con pileta al aire libre, estacionamiento privado y centro de fitness.",
+        "ubicacion": "Mendoza, Argentina",
+        "estrellas": 4,
+        "precio": "$900000"
+    }
+]

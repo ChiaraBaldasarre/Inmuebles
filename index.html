@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Inmobiliaria Romanazzi</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1>
+                <img src="img/logo.png">
+                <strong>Inmobiliaria Romanazzi</strong>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="https://www.instagram.com/inmobiliariaromanazzi/?hl=es-la">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <img class="banner" src="img/banner.jpg">
+
+    <main>
+
+        <section class="productos">
+
+            <ul>
+                <li>
+                    <h2><a href="departamentos.html">Departamentos</a></h2>
+                    <img src="img/departamento.jpg">
+                    <p class="producto-descripcion">Descubre nuestros modernos departamentos que combinan diseño y comodidad.</p>
+                </li>
+                <li>
+                    <h2><a href="casas.html">Casas</a></h2>
+                    <img src="img/casa.jpg">
+                    <p class="producto-descripcion">Encuentra tu hogar ideal con nuestra amplia selección de casas en venta o alquiler.</p>
+                </li>
+                <li>
+                    <h2><a href="habitacionhotel.html">Habitación de Hotel</a></h2>
+                    <img src="img/habitacion_hotel.jpg">
+                    <p class="producto-descripcion">Sumérgete en una experiencia de lujo y confort en nuestras habitaciones de hotel.</p>
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre la Inmobiliaria Romanazzi</h2>
+            <img class="utensilios" src="img/utensilios.jpg" alt="Entrega de un inmueble.">
+
+            <p>Situada estratégicamente en el corazón de la ciudad de Mendoza, la <strong>Inmobiliaria Romanazzi</strong> trae lo mejor del mercado inmobiliario para satisfacer todas tus necesidades de vivienda y bienes raíces. Desde nuestra fundación en 1967, nos hemos destacado como referente en la industria y conquistamos nuevos clientes día tras día.</p>
+
+            <p id="mision">Nuestra misión es: <em><strong>"Brindarles seguridad, confort y calidad de vida".</strong></em></p>
+
+            <p>Contamos con un <strong><em>equipo de profesionales altamente experimentados</em></strong> que se mantienen al tanto de las últimas tendencias y desarrollos del mercado inmobiliario, asegurándonos y garantizándote de ofrecerte las mejores opciones para satisfacer tus requerimientos.</p>
+
+            <p>En <strong>Inmobiliaria Romanazzi</strong>, entendemos que <em>comprar</em>, <em>vender<em> o <em>alquilar</em> una propiedad es una decisión significativa en la vida de las personas. Por eso, nos comprometemos a brindarte un servicio integral, asesorándote en cada paso del proceso para que tomes las mejores decisiones y alcances tus metas inmobiliarias.</p>
+
+            <p>Estamos listos para ayudarte a encontrar el hogar de tus sueños o la inversión perfecta. ¡Contáctanos hoy mismo y descubre cómo la Inmobiliaria Romanazzi puede hacer realidad tus objetivos inmobiliarios!</p>
+
+        </section>
+
+        <section class="mapa">
+            <h3 class="titulo-principal">Nuestra Ubicación</h3>
+            <p>Nuestro establecimiento está ubicado en el corazón de la ciudad</p>
+
+            <div class="mapa-contenido">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.493108656248!2d-68.85282312529687!3d-32.88512846878243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0902500e190b%3A0xf6b0681e54f79329!2sRomanazzi%20Inmobiliaria!5e0!3m2!1ses-419!2sar!4v1687643842377!5m2!1ses-419!2sar" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            </div>
+
+
+        </section>
+
+        <section class="seccionformulario">
+
+            <form action="" class="formulario" id="formulario">
+            
+                <!-- Grupo: Nombre -->
+                <div class="formulario__grupo" id="grupo__nombre">
+                    <label for="nombre" class="formulario__label">Nombre/s</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Pedro Carlos">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">Nombre/s debe ser de 4 a 16 dígitos alfabéticos, pueden llevar acento.</p>
+                </div>
+            
+                <!-- Grupo: Apellido -->
+                <div class="formulario__grupo" id="grupo__apellido">
+                    <label for="apellido" class="formulario__label">Apellido/s</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="González Silvestre">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">Apellido/s debe ser de 4 a 16 dígitos alfabéticos, pueden llevar acento.</p>
+                </div>
+            
+                <!-- Grupo: DNI -->
+                <div class="formulario__grupo" id="grupo__dni">
+                    <label for="dni" class="formulario__label">DNI</label>
+                    <div class="formulario__grupo-input">
+                        <input type="dni" class="formulario__input" name="dni" id="dni" placeholder="40274318">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El DNI debe ser de 6 a 8 dígitos numéricos, sin puntos ni espacios.</p>
+                </div>
+            
+                <!-- Grupo: Domicilio -->
+                <div class="formulario__grupo" id="grupo__domicilio">
+                    <label for="domicilio" class="formulario__label">Domicilio</label>
+                    <div class="formulario__grupo-input">
+                        <input type="domicilio" class="formulario__input" name="domicilio" id="domicilio"
+                            placeholder="Av. Corrientes 2345">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El domicilio debe tener calle y numeración, al menos 10 caracteres.</p>
+                </div>
+            
+                <!-- Grupo: Teléfono -->
+                <div class="formulario__grupo" id="grupo__telefono">
+                    <label for="telefono" class="formulario__label">Teléfono</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="1134567890">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El teléfono debe ser de hasta 14 dígitos numéricos, sin puntos ni espacios.
+                    </p>
+                </div>
+            
+                <!-- Grupo: Correo Electronico -->
+                <div class="formulario__grupo" id="grupo__correo">
+                    <label for="correo" class="formulario__label">Correo Electrónico</label>
+                    <div class="formulario__grupo-input">
+                        <input type="email" class="formulario__input" name="correo" id="correo"
+                            placeholder="pedroGonzalez1@gmail.com">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El correo puede contener letras, números, puntos, guiones, debe tener su
+                        dominio @ y sin acentos.</p>
+                </div>
+            
+                <!-- Grupo: Terminos y Condiciones -->
+                <div class="formulario__grupo" id="grupo__terminos">
+                    <label class="formulario__label">
+                        <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                        Acepto los Terminos y Condiciones
+                    </label>
+                </div>
+            
+                <div class="formulario__mensaje" id="formulario__mensaje">
+                    <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+                </div>
+            
+                <div class="formulario__grupo formulario__grupo-btn-enviar">
+                    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+                    <button type="submit" class="formulario__btn">Enviar</button>
+                </div>
+            </form>
+
+        </section>
+
+    </main> 
+
+    <footer>
+        <img src="img/logo.png">
+        <p class="copyright"><a href="https://www.facebook.com/inmobiliaria.romanazzi/">Síguenos en Facebook</a></p>
+        <p class="copyright">Email: inmobiliariaromanazzi@hotmail.com</p>
+        <p class="copyright">&copy Copyright Inmobiliaria Romanazzi - 2020</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

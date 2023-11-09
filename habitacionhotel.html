@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitación de Hotel</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styleproductos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1>
+                <a href="index.html"><img src="img/logo.png"></a>
+                <strong>Inmobiliaria Romanazzi</strong>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="https://www.instagram.com/inmobiliariaromanazzi/?hl=es-la">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <img class="banner" src="img/banner.jpg">
+
+    <section class="productos">
+
+        <div class="filtros">
+            <label for="precio">Precio:</label>
+            <input type="number" id="precio" placeholder="200000" oninput="filtrarPrecio(this.value)">
+        
+            <button type="submit">Filtrar</button>
+        </div>
+
+        <div>
+            <table class="tabla">
+                <thead class="items">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Imagen</th>
+                        <th>Descripcion</th>
+                        <th>Ubicacion</th>
+                        <th>Estrellas</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody class="datos">
+                </tbody>
+            </table>
+        </div>
+
+        <button id="boton_hotel" class="btn btn-dark">HABITACIONES DE HOTEL</button>
+
+    </section>
+
+    <script src="habitacionhotel.js"></script>
+    
+</body>
+
+<footer>
+    <img src="img/logo.png">
+    <div>
+        <p class="copyright"><a href="https://www.facebook.com/inmobiliaria.romanazzi/">Síguenos en Facebook</a></p>
+        <p class="copyright">Email: inmobiliariaromanazzi@hotmail.com</p>
+        <p class="copyright">&copy Copyright Inmobiliaria Romanazzi - 2020</p>
+    </div>
+
+</footer>
